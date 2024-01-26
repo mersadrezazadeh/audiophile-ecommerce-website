@@ -14,6 +14,7 @@ const config: Config = {
     },
     screens: { md: "480px", lg: "640px", xl: "992px" },
     colors: {
+      transparent: "transparent",
       brand: {
         100: "#d87d4a",
       },

@@ -4,14 +4,14 @@ import NavLinks from "./NavLinks";
 
 function Navbar() {
   return (
-    <header className="flex items-center justify-between border-b border-b-gray-300/20 bg-gray-800 py-6">
+    <header className="relative z-50 flex items-center justify-between border-b border-b-gray-300/20 px-4 py-8">
       <Logo />
       <NavLinks />
-      <div className="md:hidden" />
-      <div className="md:hidden" />
-      <div className="md:hidden" />
-      <div className="md:hidden" />
-      <div className="md:hidden" />
+      <div className="xl:hidden" />
+      <div className="xl:hidden" />
+      <div className="xl:hidden" />
+      <div className="xl:hidden" />
+      <div className="xl:hidden" />
       <CartPreview />
     </header>
   );
