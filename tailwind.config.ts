@@ -20,6 +20,9 @@ const config: Config = {
         900: "#000000",
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 };
