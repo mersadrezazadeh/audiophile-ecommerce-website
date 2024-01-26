@@ -7,7 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        screen: "100dvh",
+      },
+    },
+    screens: { md: "480px", lg: "640px", xl: "992px" },
     colors: {
       brand: {
         100: "#d87d4a",

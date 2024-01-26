@@ -13,13 +13,13 @@ function NavLinks() {
   const pathname = usePathname();
 
   return (
-    <nav className="-order-1 md:order-none">
-      <button className="md:hidden" onClick={() => setOpen(!open)}>
+    <nav className="-order-1 lg:order-none">
+      <button className="lg:hidden" onClick={() => setOpen(!open)}>
         <Image src={open ? close : hamburger} alt="menu toggle" />
       </button>
 
       <ul
-        className={`flex text-gray-100 font-bold gap-8 uppercase flex-col md:flex-row absolute transition-all md:static text-center ${
+        className={`absolute flex flex-col gap-8 text-center font-bold uppercase text-gray-100 transition-all lg:static lg:flex-row ${
           open ? "left-1/2 -translate-x-1/2" : "-left-full"
         }`}
       >
