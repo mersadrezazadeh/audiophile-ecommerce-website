@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "../Button";
+import Button from "../ui/Button";
 import earphone from "@/public/images/home/desktop/image-earphones-yx1.jpg";
 
 function Yx1() {

@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../ui/Button";
 
 // after:bg-[url('../public/images/home/mobile/image-hero.jpg')]
 

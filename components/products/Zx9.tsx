@@ -1,6 +1,6 @@
 import Image from "next/image";
 import speaker from "@/public/images/home/desktop/image-speaker-zx9.png";
-import Button from "../Button";
+import Button from "../ui/Button";
 
 function Zx9() {
   return (
