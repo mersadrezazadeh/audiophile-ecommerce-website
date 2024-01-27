@@ -4,7 +4,7 @@ import Button from "../Button";
 
 function Hero() {
   return (
-    <section className="relative -mt-[91px] h-screen bg-gray-800 px-6">
+    <section className="relative -mt-[91px] mb-36 h-screen bg-gray-800 px-6">
       <div className="absolute left-1/2 z-20 -translate-x-1/2 pt-20 text-center md:mt-32 xl:left-6 xl:translate-x-0 xl:text-left">
         <span className="mb-2 block font-bold uppercase tracking-[0.8em] text-gray-100/50">
           New product
