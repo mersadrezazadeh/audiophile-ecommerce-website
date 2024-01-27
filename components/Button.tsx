@@ -13,7 +13,8 @@ function Button({ variation, onClick, path, children }: ButtonProps) {
       "bg-brand-100 px-8 py-3 text-sm font-bold uppercase text-gray-100 transition-all hover:brightness-110",
     secondary:
       "bg-gray-800 px-8 py-3 text-sm font-bold uppercase text-gray-200 transition-all hover:brightness-200",
-    ghost: "",
+    ghost:
+      "bg-transparent border-2 border-gray-800/80 px-7 py-2.5 text-sm font-bold uppercase transition-all hover:bg-gray-800 hover:text-gray-200",
   };
 
   if (path)
