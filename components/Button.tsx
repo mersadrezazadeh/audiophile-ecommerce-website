@@ -10,8 +10,9 @@ type ButtonProps = {
 function Button({ variation, onClick, path, children }: ButtonProps) {
   const styles = {
     primary:
-      "bg-brand-100 px-8 py-3 font-bold uppercase text-sm text-gray-100 transition-all hover:brightness-110",
-    secondary: "",
+      "bg-brand-100 px-8 py-3 text-sm font-bold uppercase text-gray-100 transition-all hover:brightness-110",
+    secondary:
+      "bg-gray-800 px-8 py-3 text-sm font-bold uppercase text-gray-200 transition-all hover:brightness-200",
     ghost: "",
   };
 

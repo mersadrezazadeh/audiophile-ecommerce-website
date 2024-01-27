@@ -1,8 +1,8 @@
 import { links } from "@/utils/links";
 import Link from "next/link";
-import headphone from "../public/images/shared/desktop/image-headphones.png";
-import speaker from "../public/images/shared/desktop/image-speakers.png";
-import earphone from "../public/images/shared/desktop/image-earphones.png";
+import headphone from "@/public/images/shared/desktop/image-headphones.png";
+import speaker from "@/public/images/shared/desktop/image-speakers.png";
+import earphone from "@/public/images/shared/desktop/image-earphones.png";
 import Image from "next/image";
 
 const images = [headphone, speaker, earphone];
