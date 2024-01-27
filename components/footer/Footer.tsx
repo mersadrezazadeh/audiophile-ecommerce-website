@@ -6,8 +6,8 @@ import { FaInstagram, FaFacebook, FaXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
     <footer className="bg-gray-800">
-      <div className="container relative grid gap-10 px-4 py-16 lg:grid-cols-2">
-        <div className="absolute left-4 top-0 h-1 w-20 bg-brand-100 " />
+      <div className="container relative grid items-center gap-10 px-4 py-16 lg:grid-cols-2">
+        <div className="absolute left-4 top-0 h-1 w-28 bg-brand-100 " />
         <Logo />
         <ul className="flex gap-4 text-xs font-bold uppercase text-gray-300 lg:justify-end">
           {links.map((link) => (
